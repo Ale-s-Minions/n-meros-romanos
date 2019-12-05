@@ -26,3 +26,13 @@ defmodule RomanNumerals.MixProject do
     ]
   end
 end
+ defmodule número romanos do
+  def numero(numero) do
+    "dame un número"<>numero
+  end
+   if numero== 1 || numero ==2 do
+     |> String("I")
+   else
+    |> String("II")
+   end
+ end
